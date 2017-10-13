@@ -75,7 +75,7 @@
       $data = mysqli_fetch_array($sql);
       if(is_null($data))
         return false;
-      if(data['password'] == password_hash($this->password, PASSWORD_DEFAULT))
+      if(password_hash($this->password, data['password']))
         return true;
       return false
     }

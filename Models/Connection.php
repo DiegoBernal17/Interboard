@@ -5,7 +5,7 @@
     private $data = array (
       "host" => "localhost",
       "user" => "root",
-      "pass" => "olade56",
+      "pass" => "",
       "db" => "interboarddb"
     );
     private $con;
